@@ -1,12 +1,7 @@
 /tmp/
 /dist/
-*_local.*
-*.sqlite3
-*.pyc
-*.rdb
-.DS_Store
-._*
 *.egg-info
+.DS_Store
 
 # IDE system files
 .ropeproject
@@ -21,6 +16,7 @@
 *.code-workspace
 
 # Temporary files
+__pycache__
 *.py[oc]
 *.sw[opn]
 *~

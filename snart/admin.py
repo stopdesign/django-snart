@@ -50,4 +50,9 @@ class ConstantAdmin(TranslationAdmin):
     truncated_value.allow_tags = True
 
     class Media:
-        css = {"all": ("snart_style.css",)}
+        css = {"all": ("snart/css/style.css", "modeltranslation/css/tabbed_translation_fields.css")}
+        js = [
+            "snart/js/jquery-ui.min.js",
+            "modeltranslation/js/tabbed_translation_fields.js",
+        ]
+

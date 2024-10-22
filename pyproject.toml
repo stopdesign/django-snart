@@ -43,6 +43,3 @@ dev = [
     "requests",
 ]
 
-
-[tool.setuptools.packages.find]
-where = ["snart"]

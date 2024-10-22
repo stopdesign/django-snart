@@ -11,6 +11,11 @@ help :: # Show this message
 clean: # Clean project
 	find . -name "*.pyc" -delete
 	find . -name "*__pycache__" -delete
+	rm -fr ./dist/
+	rm -fr ./*.egg-info
+
+build: # Build project
+	VENV ; python setup.py sdist
 
 count: # Count code lines with cloc
 	cloc --vcs git \

@@ -8,8 +8,8 @@ recursive-include snart/migrations *
 # Include static files
 recursive-include snart/static *
 
-# Include template files if you have any (adjust the path if you add templates later)
-recursive-include snart/templates *
+# Include template files
+recursive-include snart/templatetags *
 
 # Include management commands
 recursive-include snart/management *
